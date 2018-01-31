@@ -1,0 +1,35 @@
+.wrapper
+{
+	margin: auto;
+	max-width: 900px;
+}
+
+.block
+{
+	display: inline-block;
+	border: 1px solid #000000;
+	margin: 7px;
+	height: 35px;
+	width: 35px;
+	cursor: pointer;
+}
+
+
+.b1
+{
+	float: left;
+	display: inline-block;
+	border: 0px solid red;
+}
+.b2
+{
+	float: left;
+	display: inline-block;
+	border: 0px solid green;
+}
+.b3
+{
+	float: left;
+	display: inline-block;
+	border: 0px solid green;
+}
