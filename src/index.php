@@ -5,7 +5,6 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 
 	<link rel="stylesheet" type="text/css" href="colors.css" />
-
 	<script src="clipboard.min.js"></script>
 	<script src="colors.js"></script>
 </head>
@@ -63,7 +62,7 @@ echo "</div>";
 <label><input type="radio" name="picked" onclick="picked='backend'"> Background Color</label>
 <div class="testing-pane" id="testing-pane">
 	<h2 class="fontend">Testing Pane</h2>
-	<div>Some other texts Front: <span id="frontend">#choose</span>, Back: <span id="background">#choose</span></div>
+	<div>Some other texts Front: <span id="frontend-text">#choose</span>, Back: <span id="background-text">#choose</span></div>
 </div>
 </body>
 </html>
