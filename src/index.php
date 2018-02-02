@@ -49,7 +49,7 @@ foreach($colors as $red)
 		echo "<div class='b1'>";
 		foreach($colors as $blue)
 		{
-			echo "<button onclick=\"cc('#{$red}{$green}{$blue}, this')\" data-clipboard-text='#{$red}{$green}{$blue}' class='block' style='background-color: #{$red}{$green}{$blue};' title='#{$red}{$green}{$blue}'></button>";
+			echo "<button onclick=\"cc('#{$red}{$green}{$blue}', this)\" data-clipboard-text='#{$red}{$green}{$blue}' class='block' style='background-color: #{$red}{$green}{$blue};' title='#{$red}{$green}{$blue}'></button>";
 		}
 		echo "</div>";
 		echo "<br>";
@@ -59,6 +59,11 @@ foreach($colors as $red)
 echo "</div>";
 ?>
 <p>Click and pick color code.</p>
+<label><input type="radio" name="picked" onclick="picked='frontend'" checked="checked"> Front Color</label>
+<label><input type="radio" name="picked" onclick="picked='backend'"> Background Color</label>
+<div class="testing-pane" id="testing-pane">
+	<h2 class="fontend">Testing Pane</h2>
+	<div>Some other texts Front: <span id="frontend">#choose</span>, Back: <span id="background">#choose</span></div>
 </div>
 </body>
 </html>

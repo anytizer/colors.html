@@ -33,3 +33,14 @@
 	display: inline-block;
 	border: 0px solid green;
 }
+
+.testing-pane
+{
+	color: #999999;
+	background-color: #EEEEEE;
+	padding: 20px;
+}
+
+.testing-pane h2
+{
+}
