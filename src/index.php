@@ -57,13 +57,17 @@ foreach($colors as $red)
 }
 echo "</div>";
 ?>
+
 <p>Click and pick color code.</p>
 <label><input type="radio" name="picked" onclick="picked='frontend'" checked="checked"> Front Color</label>
 <label><input type="radio" name="picked" onclick="picked='backend'"> Background Color</label>
+
 <div class="testing-pane" id="testing-pane">
-	<h2 class="fontend">Testing Pane</h2>
+	<h2>Testing Pane</h2>
 	<div>Some other texts will appear here.</div>
 	<div>Front Color: <span id="frontend-text">#choose</span>, Background Color: <span id="background-text">#choose</span></div>
+</div>
+
 </div>
 </body>
 </html>
