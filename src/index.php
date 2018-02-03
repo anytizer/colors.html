@@ -62,7 +62,8 @@ echo "</div>";
 <label><input type="radio" name="picked" onclick="picked='backend'"> Background Color</label>
 <div class="testing-pane" id="testing-pane">
 	<h2 class="fontend">Testing Pane</h2>
-	<div>Some other texts Front: <span id="frontend-text">#choose</span>, Back: <span id="background-text">#choose</span></div>
+	<div>Some other texts will appear here.</div>
+	<div>Front Color: <span id="frontend-text">#choose</span>, Background Color: <span id="background-text">#choose</span></div>
 </div>
 </body>
 </html>
